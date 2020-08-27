@@ -12,5 +12,6 @@
     * X_AUTH_EMAIL: Your Cloudflare login email
     * wanted_type: Condition of filtering, leaving wanted DNS record type only.
     * wanted_name: Same as above, but "name" column this time.
-2. Run cloudflare_dns_update.py, the script will process shits for you.
+2. Run cloudflare_dns_update.py, the script will process updates for you at a regular interval.
 3. Run cloudflare_dns_update.py at any time you want, or running main() from cloudflare_dns_update.py
+4. Run inside a Docker Container
